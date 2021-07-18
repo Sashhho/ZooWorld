@@ -15,6 +15,7 @@
         public DbSet<User> Users { get; set; }
         public DbSet<Continent> Continents { get; set; }
         public DbSet<Animal> Animals { get; set; }
+        public DbSet<Categories> Categories { get; set; }
 
     }
 }
